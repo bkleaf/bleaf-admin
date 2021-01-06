@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    hikari:
+      driver-class-name: org.postgresql.Driver
+      jdbc-url: "jdbc:postgresql://bkleaf2.asuscomm.com:5777/books"
+      username: bleaf
+      password: bleafpw
+      pool-name: hikari
+      maximum-pool-size: 20
